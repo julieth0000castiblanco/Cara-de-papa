@@ -1,0 +1,116 @@
+#cont-principal {
+    background: #72d7d3;
+    width: 700px;
+    height: 700px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 110px;
+    transition: 3s;
+}
+
+#cont-principal .cuerpo {
+    padding-top: 160px;
+    position: relative;
+    z-index: 10;
+}
+
+#cont-principal .cuerpo .hat {
+    position: absolute;
+    top: 65px;
+    left: 225px;
+    transition: 1s;
+}
+
+#cont-principal .cuerpo .shoes1 {
+    position: relative;
+    bottom: 32px;
+    left: -79px;
+    z-index: -2;
+}
+
+#cont-principal .cuerpo .shoes2 {
+    position: relative;
+    bottom: 94px;
+    right: -79px;
+    z-index: -2;
+}
+
+#cont-principal .cuerpo .ear1 {
+    position: relative;
+    top: -479px;
+    left: -134px;
+    z-index: -2;
+    transition: 1s;
+}
+
+#cont-principal .cuerpo .ear2 {
+    position: relative;
+    top: -600px;
+    right: -132px;
+    z-index: -2;
+    transition: 1s;
+}
+
+#cont-principal .cuerpo .eye1 {
+    position: relative;
+    top: -680px;
+    left: -41px;
+    transition: 1.5s;
+}
+
+#cont-principal .cuerpo .eye2 {
+    position: relative;
+    top: -772px;
+    right: -41px;
+    transition: 1.5s;
+}
+
+#cont-principal .cuerpo .mousetache {
+    position: relative;
+    top: -672px;
+}
+
+#cont-principal .cuerpo .nose {
+    position: relative;
+    bottom: 874px;
+    transition: 3s;
+}
+
+#cont-principal:hover {
+    border-radius: 200px;
+    background: #7bc5f0;
+}
+
+#cont-principal .cuerpo:hover .nose {
+    transform: rotate(360deg);
+}
+
+#cont-principal .cuerpo:hover .eye1 {
+    transform: scale(1.2);
+}
+
+#cont-principal .cuerpo:hover .eye2 {
+    transform: scale(1.2);
+}
+
+#cont-principal .cuerpo:hover .hat {
+    transform: translateY(-20px);
+}
+
+#cont-principal .cuerpo:hover .ear1 {
+    transform: scale(1.5);
+}
+
+#cont-principal .cuerpo:hover .ear2 {
+    transform: scale(1.5);
+}
+
+h2 {
+    text-align: center;
+    margin-top: 20px;
+}
+p {
+    text-align: center;
+    font-size: 20px;
+    margin-top: 10px;
+}
